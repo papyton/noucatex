@@ -1,0 +1,80 @@
+@media screen and (max-width:1021px){
+    .topo{
+        position: relative;
+    }
+
+    .pesquisa{
+   display: none;
+ }
+
+    .logo{
+        margin: 0;
+        text-align: center;
+    }
+    .header{
+        padding-top: 50px;
+    }
+    .headline{
+        flex:100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .headline p{
+       text-align: center; 
+    }
+
+    .img-headline{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+    .card{
+        width: 100%;
+    }
+
+    .enviar{
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (max-width:800px){
+      .headline{
+        flex: 100%;
+        margin: 0;
+        
+      }
+
+      
+      
+
+      .img-headline{
+        flex:100%;
+        margin:5%;
+        text-align: center;
+
+      }
+}
+@media screen and (max-width:750px){
+    .headline{
+        flex: 100%;
+        margin: 0;
+        
+      }
+        .achou{
+          font-size: 25px;
+
+        }
+
+        h2{
+            font-size: 15px;
+        }
+
+      .img-headline{
+        flex:100%;
+        margin:5%;
+        text-align: center;
+
+      }
+}

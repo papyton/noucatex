@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hind:wght@500&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #080101;
+    
+}
+h1{
+    font-family: 'Bebas Neue', sans-serif; 
+    font-size: 30px;
+
+    }
+
+.topo{
+    background: white;
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    
+    
+}
+
+.logo{
+    flex: 20%;
+     /*border: 1px solid black; */
+    text-align: center;
+    margin-left: 10%;
+    text-align: left;
+    
+ 
+   
+}
+
+.pesquisa{
+    flex: 70%;
+    /*border: 1px solid red; */
+    text-align: right;
+    padding: 20px;
+ 
+    
+}
+
+.pesquisa a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 10px;
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 10px 30px;
+}
+.pesquisa a:hover{
+    background-color: darkgreen;
+    color: white;
+   
+}
+
+#call{
+    background-color: grey;
+    border: 1px solid black;
+    margin-right: 10%;
+    margin-left: 5%;
+    
+}
+.header{
+    background-color: rgb(8, 1, 1);
+    display: flex;
+    height: 600px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+
+}
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+   
+}
+
+.headline h2{
+    margin:0;
+    padding: 0;
+
+}
+
+
+
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+    margin-top: -100px;
+    
+}
+
+.headline p{
+ color: white;
+}
+
+.enviar{
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    background-color: greenyellow;
+    color: black;
+    margin-left: 200px;
+    padding: 10px 60px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  .enviar:hover{
+    background-color: darkgreen;
+  }
+ 
+
+
+.achou{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+section{
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    text-align: center;
+    padding: 5%;
+    background-color: black;
+    
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+
+.benificios{
+    display: inline-block;
+    margin-top: 5%;
+    }
+
+.card{
+    width: 30%;
+    display: inline-block;
+    padding: 20px;
+    margin:1%;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+h3{
+    color: aqua;
+}
+
+.texto{
+    color: white;
+}
+
+.texto1{
+    display: none;
+}
+
+.card:hover{
+    background-color: green;
+    color: black;
+    padding: 70px;
+}
+
+.card:hover .card-text{
+    display: none;
+}
+
+.card:hover .texto1{
+    display: block;
+}
+
+.card:hover img{
+    display: none;
+}
+
+footer{
+    margin-top: 100px;
+    height: 300px;
+    color: white;
+    text-align: center; 
+}
+
+.final{
+    background-color: black;
+    padding: 100px;
+    border: 1px solid green;
+    align-items: center;
+    position: relative;
+    
+}
+
+.final b{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 70px;
+}
