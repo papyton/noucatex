@@ -6,7 +6,7 @@
 body{
     margin: 0;
     background-color: #080101;
-    
+    overflow-x: hidden;
 }
 h1{
     font-family: 'Bebas Neue', sans-serif; 
@@ -115,6 +115,8 @@ h1{
     text-transform: uppercase;
     border-radius: 5px;
     display: inline-block;
+    position: relative;
+    z-index: 2;
   }
 
   .enviar:hover{
